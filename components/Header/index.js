@@ -72,7 +72,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <Button onClick={handleWorkScroll}>Workkkk</Button>
                   <Button onClick={handleAboutScroll}>Aboutttt</Button>
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
+                    <Button onClick={() => router.push("/blog")}>Blogggg</Button>
                   )}
                   {showResume && (
                     <Button
