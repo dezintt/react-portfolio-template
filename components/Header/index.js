@@ -87,7 +87,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
                   >
-                    Contact
+                    Contato
                   </Button>
                 </div>
               ) : (
