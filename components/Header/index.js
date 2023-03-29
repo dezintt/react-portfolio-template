@@ -131,8 +131,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Workk</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
+            <Button onClick={handleWorkScroll}>Workkkk</Button>
+            <Button onClick={handleAboutScroll}>Aboout</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
@@ -141,12 +141,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Resume
+                Resuume
               </Button>
             )}
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
+              Contacttt
             </Button>
             {mounted && theme && data.darkMode && (
               <Button
